@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--	W3schools.com
+		HTML, CSS, JavaScript
+		Game about interpersonal relations management-->
+<html>
+<head>
+<title>Perceptions</title>
+</head>
+<body>
+
+<h1>Perceptions</h1>
+<p>by Caleb</p>
+
+<button onclick="myFunction()">Make new button</button>
+<script>
+function myFunction() {
+  var x = document.createElement("BUTTON");
+  var t = document.createTextNode("Make another button");
+  x.appendChild(t);
+  document.body.appendChild(x);
+}
+</script>
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Date and Time</button>
+<p id="demo"></p>
+
+<!--
+<?php
+echo "My first PHP script!";
+?>
+-->
+
+</body>
+</html>
