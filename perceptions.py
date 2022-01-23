@@ -32,3 +32,40 @@ for Character in party:
 
 print("End of test")
 input()
+
+#Menu option 1
+def option_1():
+    print('\nOption 1')
+    input()
+
+#Menu option 2
+def option_2():
+    print('\nOption 2')
+    input()
+
+#Menu Option 3
+def option_3():
+    print('\nOption 3')
+    input()
+
+#Menu
+#3 options
+while True:
+    mainMenuChoice = input('Select: ')
+
+    if mainMenuChoice == '1':
+        option_1()
+        continue
+
+    elif mainMenuChoice == '2':
+        option_2()
+        continue
+
+    elif mainMenuChoice == '3':
+        option_3()
+        continue
+    elif mainMenuChoice == 'X':
+        break
+    else:
+        print('\nInvalid option; please try again!')
+        continue
